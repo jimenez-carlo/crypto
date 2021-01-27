@@ -20,7 +20,7 @@
               <span>Manage Users</span>
               </a>
             <ul class="sub">
-              <li><a href="#"><i class="fa fa-plus"></i> Add User</a></li>
+              <li><a href="<?php echo base_url() ?>home/create"><i class="fa fa-plus"></i> Add User</a></li>
               <li><a href="<?php echo base_url() ?>home/users"><i class="fa fa-users"></i>User List</a></li>
             </ul>
           </li>

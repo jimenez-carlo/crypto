@@ -38,7 +38,7 @@
     <div class="container">
       <!-- <form class="form-login" action=""> -->
       <?php echo form_open(base_url().'login/submit',array('class' => 'form-login')); ?>  
-        <h2 class="form-login-heading">My System v.1</h2>
+        <h2 class="form-login-heading">My System v.1.0.1</h2>
         <div class="login-wrap">
           <?php echo $login_error; ?>
           <div class="form-group <?php echo $login_class; ?>">

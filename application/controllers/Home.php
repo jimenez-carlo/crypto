@@ -49,5 +49,13 @@ class Home extends MY_Controller {
 		$data['post']    = $this->home_model->get_posts($this->session->user_id);
 		$this->template('home/users/list', $data);
 	}
+	public function create(){
+		$data['open_tab'] = $data['update_message'] = "";
+		$post = $this->input->post();
+		
+		$data['account'] = $this->home_model->get_user($this->session->user_id);
+		$data['post']    = $this->home_model->get_posts($this->session->user_id);
+		$this->template('home/users/create', $data);
+	}
 
 }
