@@ -123,3 +123,14 @@
 </body>
 
 </html>
+
+<?php 
+// $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+
+
+// if (strpos($url,'car') !== false) {
+//     echo 'Car exists.';
+// } else {
+//     echo 'No cars.';
+// }
+ ?>
